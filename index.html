@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Calculator</title>
+      <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <header></header>
+      <main>
+            <section class="calc">
+                  <div id="bothdiv">
+                        <div class="display">
+                              <form action="input">
+                                    <input type="numbers" class="screen">
+                              </form>
+                              <form action="">
+                                    <input type="numbers" class="bigScreen">
+                              </form>
+                        </div>
+                        <div class="keyboard">
+                              <table class="tab1">
+                                    <tr id="row1">
+                                          <td><button class="btn-clear" id="R1-1">C</button></td>
+                                          <td><button class="btn-del" id="R1-2">Del</button></td>
+                                          <td><button class="btn" id="R1-3" data-num="*">*</button></td>
+                                          <td><button class="btn" id="R1-4" data-num="/">/</button></td>
+                                    </tr>
+                              </table>
+                              <table class="tab2">
+                                    <tr id="row2">
+                                          <td><button class="btn" id="R2-1" data-num="7">7</button></td>
+                                          <td><button class="btn" id="R2-2" data-num="8">8</button></td>
+                                          <td><button class="btn" id="R2-3" data-num="9">9</button></td>
+                                          <td><button class="btn" id="R2-4" data-num="-">-</button></td>
+                                    </tr>
+                              </table>
+                              <table class="tab3">
+                                    <tr id="row3">
+                                          <td><button class="btn" id="R3-1" data-num="4">4</button></td>
+                                          <td><button class="btn" id="R3-2" data-num="5">5</button></td>
+                                          <td><button class="btn" id="R3-3" data-num="6">6</button></td>
+                                          <td rowspan="2"><button class="btn" id="R3-4" data-num="+">+</button></td>
+                                    </tr>
+                                    <tr id="row4">
+                                          <td><button class="btn" id="R4-1" data-num="1">1</button></td>
+                                          <td><button class="btn" id="R4-2" data-num="2">2</button></td>
+                                          <td><button class="btn" id="R4-3" data-num="3">3</button></td>
+                                    </tr>
+                              </table>   
+                              <table class="tab5">
+                                    <tr id="row5">
+                                          <td><button class="btn" id="R5-1" data-num="0">0</button></td>
+                                          <td><button class="btn" id="R5-2" data-num="00">00</button></td>
+                                          <td><button class="btn" id="R5-3" data-num=".">.</button></td>
+                                          <td><button class="btn-equal" id="R5-4">=</button></td> 
+                                    </tr>
+                              </table>
+                        </div>
+                  </div>
+            </section>
+      </main>
+</body>
+<script src="script.js"></script>
+</html>

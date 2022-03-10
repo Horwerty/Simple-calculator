@@ -1,0 +1,106 @@
+
+* {
+      background-color: whitesmoke;
+}
+
+.calc {
+      border-style: solid;
+      margin: 20px;
+      align-content: center;
+      justify-content: center;
+      width: 80vh;
+      height: 120vh;
+}
+
+#bothdiv {
+      border-style: inset;
+      border-top-style: outset;
+      border-left-style: outset;
+      color: white;
+      border-radius: 20px;
+      margin: 50px;
+      width: 45vh;
+      height: 60vh;
+      box-shadow: 2px 2px 2px 3px hsla(255, 207, 235, 255);
+}
+
+
+.screen {
+      width: 248px;
+      margin: 20px;
+      margin-bottom: 0;
+      height: 30px;
+      border-radius: 10px;
+      border-color: whitesmoke;
+      border-style: outset;
+      border-top-style: inset;
+      border-left-style: inset;
+      background-color: whitesmoke;
+      text-align: right;
+      border-bottom-style: none;
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+}
+
+.bigScreen {
+      border-style: solid;
+      border-color: rgb(177, 175, 175);
+      position: relative;
+      text-align: right;
+	height: 30px;
+	margin: 0;
+	font-size: 25px;
+      background-color: whitesmoke;
+      width: 248px;
+      margin-bottom: 10px;
+      margin-left: 20px;
+      border-top-style: none;
+      border-bottom-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+}
+
+#R3-4 {
+      height: 99px;
+}
+
+#R1-1{
+      margin-left: 18px;
+      border-top-left-radius: 10px;
+}
+
+#R1-4 {
+      border-top-right-radius: 10px;
+}
+
+#R5-4 {
+      border-bottom-right-radius: 10px;
+}
+
+#R2-1 {
+      margin-left: 18px;
+}
+
+#R3-1 {
+      margin-left: 18px;
+}
+
+#R4-1 {
+      margin-left: 18px;
+}
+
+#R5-1 {
+      margin-left: 18px;
+      border-bottom-left-radius: 10px;
+}
+
+button {
+      width: 60px;
+      height: 45px;
+      border-color: white;
+      border-top-style: outset;
+      border-left-style: outset;
+      border-left-color: white;
+      background-color: white;
+      box-shadow: 1px 1px 1px 4px rgba(209, 205, 205, 0.907);
+}
+
